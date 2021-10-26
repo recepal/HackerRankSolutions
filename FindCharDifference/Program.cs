@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+// A karakteri ile B karakteri farkı
 
 FindCharDifference();
 
