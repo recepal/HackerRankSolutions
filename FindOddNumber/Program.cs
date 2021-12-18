@@ -1,29 +1,25 @@
-﻿// olmayan tek sayı
+﻿
+int[] nums = new int[] { 9, 7, 3 };
+int result = findMissing(nums);
 
-FindOddNumber();
+Console.WriteLine(result);
 
-void FindOddNumber()
+int findMissing(int[] nums)
 {
-    int[] list = new int[] { 1, 3, 5, 7, 9, 13, 15, 17 };
-
-    var minValue = list.ToList().OrderBy(f => f).FirstOrDefault();
     int result = 0;
 
-    while (true)
+    var ascList = nums.OrderBy(x => x).ToList();
+
+    for (int i = 0; i < ascList.Count() - 1; i++)
     {
-        if (list.Contains(minValue))
+        int number = ascList[i] + 2;
+
+        if (!ascList.Contains(number))
         {
-            minValue += 2;
-        }
-        else
-        {
-            result = minValue;
+            result = number;
             break;
         }
     }
 
-    Console.WriteLine(result);
+    return result;
 }
-
-
-
