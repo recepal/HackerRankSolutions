@@ -1,7 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-
+﻿
 FindNumber();
-
 
 void FindNumber()
 {
@@ -11,9 +9,10 @@ void FindNumber()
     while (true)
     {
         Random rnd = new Random();
-        int number = rnd.Next(1,10);
+        int number = rnd.Next(1, 10);
         count++;
-        if (!numbers.Any(f=> f == number))
+
+        if (!numbers.Any(f => f == number))
         {
             numbers.Add(number);
 
@@ -24,7 +23,7 @@ void FindNumber()
         }
     }
 
-    Console.WriteLine(string.Join(",", numbers)+    " Random fonksiyonu " + count + " kere çalışmıştır.");
+    Console.WriteLine(string.Join(",", numbers) + " Random fonksiyonu " + count + " kere çalışmıştır.");
 }
 
 

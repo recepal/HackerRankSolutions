@@ -1,12 +1,10 @@
 ﻿
 CharTree();
 
-
 void CharTree()
 {
     string str = "abccddbeea"; //abccddbeea
     char[] distinctCharList = str.ToCharArray().Distinct().ToArray();
-
 
     Dictionary<char, int> dict = new Dictionary<char, int>();
 
@@ -39,8 +37,6 @@ void CharTree()
 
         Console.WriteLine(prefix + entry.Key);
     }
-
-
 }
 
 
