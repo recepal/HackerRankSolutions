@@ -39,6 +39,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RandomNumber", "RandomNumbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumber", "RandomNumber\RandomNumber.csproj", "{344459DB-D368-4A9A-B492-AF56ECCA0E24}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CharTree", "CharTree", "{0DACD291-0352-4C71-A97B-18BF3E866B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharTree", "CharTree\CharTree.csproj", "{349A6849-DDD1-4EB7-8E02-30DD7E45209E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,10 @@ Global
 		{344459DB-D368-4A9A-B492-AF56ECCA0E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{344459DB-D368-4A9A-B492-AF56ECCA0E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{344459DB-D368-4A9A-B492-AF56ECCA0E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349A6849-DDD1-4EB7-8E02-30DD7E45209E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349A6849-DDD1-4EB7-8E02-30DD7E45209E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349A6849-DDD1-4EB7-8E02-30DD7E45209E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349A6849-DDD1-4EB7-8E02-30DD7E45209E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +103,7 @@ Global
 		{5A79C430-F8E6-457D-B32F-77F61359AD05} = {63C57FC9-A918-42B9-A42C-E9B87B5C494F}
 		{F985A16D-97B1-4E46-BC28-0C005446BA75} = {F3420B84-B41A-466E-8F32-4DC6CABD5A4E}
 		{344459DB-D368-4A9A-B492-AF56ECCA0E24} = {F66322FA-C8C7-4BA9-A8AC-31B4284C5937}
+		{349A6849-DDD1-4EB7-8E02-30DD7E45209E} = {0DACD291-0352-4C71-A97B-18BF3E866B52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D685C5F5-91A2-483A-91C2-DFC031D4BC4D}
