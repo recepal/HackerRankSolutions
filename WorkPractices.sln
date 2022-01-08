@@ -25,15 +25,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigratoryBirds", "Migratory
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FindPerfectNumber", "FindPerfectNumber", "{3B342273-28B3-40CC-A6C1-4619B64481A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPerfectNumber", "FindPerfectNumber\FindPerfectNumber.csproj", "{9D197342-7DB0-47FE-9F34-F7214D57A933}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPerfectNumber", "FindPerfectNumber\FindPerfectNumber.csproj", "{9D197342-7DB0-47FE-9F34-F7214D57A933}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FindPrimeNumber", "FindPrimeNumber", "{63C57FC9-A918-42B9-A42C-E9B87B5C494F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPrimeNumber", "FindPrimeNumber\FindPrimeNumber.csproj", "{5A79C430-F8E6-457D-B32F-77F61359AD05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindPrimeNumber", "FindPrimeNumber\FindPrimeNumber.csproj", "{5A79C430-F8E6-457D-B32F-77F61359AD05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FindFibonacciNumbers", "FindFibonacciNumbers", "{F3420B84-B41A-466E-8F32-4DC6CABD5A4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFibonacciNumbers", "FindFibonacciNumbers\FindFibonacciNumbers.csproj", "{F985A16D-97B1-4E46-BC28-0C005446BA75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindFibonacciNumbers", "FindFibonacciNumbers\FindFibonacciNumbers.csproj", "{F985A16D-97B1-4E46-BC28-0C005446BA75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RandomNumber", "RandomNumber", "{F66322FA-C8C7-4BA9-A8AC-31B4284C5937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumber", "RandomNumber\RandomNumber.csproj", "{344459DB-D368-4A9A-B492-AF56ECCA0E24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +77,10 @@ Global
 		{F985A16D-97B1-4E46-BC28-0C005446BA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F985A16D-97B1-4E46-BC28-0C005446BA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F985A16D-97B1-4E46-BC28-0C005446BA75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344459DB-D368-4A9A-B492-AF56ECCA0E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344459DB-D368-4A9A-B492-AF56ECCA0E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344459DB-D368-4A9A-B492-AF56ECCA0E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344459DB-D368-4A9A-B492-AF56ECCA0E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +94,7 @@ Global
 		{9D197342-7DB0-47FE-9F34-F7214D57A933} = {3B342273-28B3-40CC-A6C1-4619B64481A6}
 		{5A79C430-F8E6-457D-B32F-77F61359AD05} = {63C57FC9-A918-42B9-A42C-E9B87B5C494F}
 		{F985A16D-97B1-4E46-BC28-0C005446BA75} = {F3420B84-B41A-466E-8F32-4DC6CABD5A4E}
+		{344459DB-D368-4A9A-B492-AF56ECCA0E24} = {F66322FA-C8C7-4BA9-A8AC-31B4284C5937}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D685C5F5-91A2-483A-91C2-DFC031D4BC4D}
