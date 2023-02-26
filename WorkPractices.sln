@@ -45,15 +45,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharTree", "CharTree\CharTr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PalindromeNumber", "PalindromeNumber", "{7FB43FA6-BA4F-4EE7-AFBD-D40ACDE4B4E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{34385A24-DEC4-438D-A203-5A203BAE2829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{34385A24-DEC4-438D-A203-5A203BAE2829}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RomanToInteger", "RomanToInteger", "{4EEEC1A0-C833-4CE8-B584-1F2DAFA3CD05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{C9E852E2-9FCA-4C4D-B7F3-E9D0EF1C5355}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{C9E852E2-9FCA-4C4D-B7F3-E9D0EF1C5355}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ValidParentheses", "ValidParentheses", "{4F93CA27-4A94-47A5-B32B-B83C38EBAD64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParentheses", "ValidParentheses\ValidParentheses.csproj", "{DDAC07FD-CA67-4E33-874E-3AA794ECF37F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParentheses", "ValidParentheses\ValidParentheses.csproj", "{DDAC07FD-CA67-4E33-874E-3AA794ECF37F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisibleSumPairs", "DivisibleSumPairs\DivisibleSumPairs.csproj", "{E37AA228-FD26-4458-8A2E-866A9ABE1697}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DivisibleSum", "DivisibleSum", "{A0238F68-4943-4230-88EF-0ECF8F181E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingValleys", "CountingValleys\CountingValleys.csproj", "{2D8B52A0-600A-48AC-B26B-F1F510FE4DD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +119,14 @@ Global
 		{DDAC07FD-CA67-4E33-874E-3AA794ECF37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDAC07FD-CA67-4E33-874E-3AA794ECF37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDAC07FD-CA67-4E33-874E-3AA794ECF37F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37AA228-FD26-4458-8A2E-866A9ABE1697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37AA228-FD26-4458-8A2E-866A9ABE1697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37AA228-FD26-4458-8A2E-866A9ABE1697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37AA228-FD26-4458-8A2E-866A9ABE1697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8B52A0-600A-48AC-B26B-F1F510FE4DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8B52A0-600A-48AC-B26B-F1F510FE4DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8B52A0-600A-48AC-B26B-F1F510FE4DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8B52A0-600A-48AC-B26B-F1F510FE4DD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +145,7 @@ Global
 		{34385A24-DEC4-438D-A203-5A203BAE2829} = {7FB43FA6-BA4F-4EE7-AFBD-D40ACDE4B4E7}
 		{C9E852E2-9FCA-4C4D-B7F3-E9D0EF1C5355} = {4EEEC1A0-C833-4CE8-B584-1F2DAFA3CD05}
 		{DDAC07FD-CA67-4E33-874E-3AA794ECF37F} = {4F93CA27-4A94-47A5-B32B-B83C38EBAD64}
+		{E37AA228-FD26-4458-8A2E-866A9ABE1697} = {A0238F68-4943-4230-88EF-0ECF8F181E0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D685C5F5-91A2-483A-91C2-DFC031D4BC4D}
